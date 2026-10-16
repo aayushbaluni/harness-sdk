@@ -45,10 +45,6 @@
 	font-family: 'JetBrains Mono', ui-monospace, monospace;
 }
 
-.interrupt-flow .mermaid {
-	justify-content: center;
-}
-
 /* Brand palette and shared Starlight tokens live in fonts.css (loaded on every
    page). Only docs-specific tokens and rules remain here. */
 
@@ -168,6 +164,7 @@ html[data-embed] .integrations-back {
 .page[data-accent='yellow'] { --product-accent: var(--card-accent-yellow); }
 .page[data-accent='pink'] { --product-accent: var(--card-accent-pink); }
 .page[data-accent='blue'] { --product-accent: var(--card-accent-blue); }
+.page[data-accent='purple'] { --product-accent: var(--card-accent-purple); }
 .page[data-accent] .product-switcher__slug {
 	color: var(--product-accent);
 }
